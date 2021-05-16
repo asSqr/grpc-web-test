@@ -32,7 +32,7 @@ class App extends React.Component<{}, State> {
     const request = new HelloRequest();
     request.setName(this.state.inputText);
 
-    const client = new GreeterClient("http://localhost:8080", {}, {});
+    const client = new GreeterClient("http://localhost:9000", {}, {});
     client.sayHello(request, {}, (err, ret) => {
       if (err || ret === null) {
         throw err;

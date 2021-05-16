@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package helloworld;
 
-option go_package = "helloworld";
+option go_package = "server/helloworld";
 
 service Greeter {
   rpc SayHello (HelloRequest) returns (HelloReply);
