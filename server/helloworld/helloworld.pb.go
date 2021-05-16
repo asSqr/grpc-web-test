@@ -4,7 +4,7 @@
 // 	protoc        v3.17.0
 // source: helloworld.proto
 
-package __
+package helloworld
 
 import (
 	context "context"

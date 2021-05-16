@@ -1,7 +1,7 @@
 package main
 
 import (
-    pb "hello-grpc-web/server/helloworld"
+    pb "github.com/asSqr/grpc-web-test/server/helloworld"
     "log"
     "net"
 
